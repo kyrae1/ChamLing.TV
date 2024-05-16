@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
 }
@@ -275,6 +276,41 @@ body {
         display: none;
     }
 }
+
+.menu-container {
+  position: relative;
+  display: inline-block;
+}
+
+.menu-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-list-item {
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.sub-menu-category {
+  padding: 10px;
+  display: block;
+}
+
+.menu-list-item:hover .sub-menu {
+  display: block;
+}
+
 
 footer {
   background-color: #333;
