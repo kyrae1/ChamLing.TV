@@ -9,11 +9,10 @@
         href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-    <title>Movie Website Re-Design</title>
+    <title>ChamLing.TV</title>
 </head>
 
 <body>
-    <!-- Messenger Chat Plugin Code -->
     <div id="fb-root"></div>
 
     <!-- Your Chat Plugin code -->
@@ -26,7 +25,7 @@
       chatbox.setAttribute("attribution", "biz_inbox");
     </script>
 
-    <!-- Your SDK code -->
+    <!-- SDK code -->
     <script>
       window.fbAsyncInit = function() {
         FB.init({
@@ -51,15 +50,23 @@
             <div class="menu-container">
                 <ul class="menu-list">
                     <li class="menu-list-item active">Home</li>
-                    <li class="menu-list-item">Movies</li>
-                    <li class="menu-list-item">Series</li>
+                    
+                    <li class="menu-list-item"><a class="rc" href="movies.html">
+                        Movies</a></li>
+                    <li class="menu-list-item dropdown">
+                        Series
+                        <ul class="sub-menu">
+                            <li class="sub-menu-category"><a class="rc" href="K-Drama.html">K-Drama</a></li>
+                            <li class="sub-menu-category"><a class="rc" href="C-Drama.html">C-Drama</a></li>
+                            <li class="sub-menu-category"><a class="rc" href="Indian.html">Indian</a></li>
+                        </ul>
+                    </li>
                     <li class="menu-list-item">Popular</li>
                     <li class="menu-list-item">Trends</li>
-
                 </ul>
             </div>
             <div class="profile-container">
-                <img class="profile-picture" src="https://rb.gy/qvqz4v" alt="profile">
+                <img class="profile-picture" src="img/cham.png" alt="profile">
                 <div class="profile-text-container">
                     <span class="profile-text">Profile</span>
                     <i class="fas fa-caret-down"></i>
@@ -86,34 +93,38 @@
             <div class="featured-content"
                 style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/f-1.jpg');">
                 <img class="featured-title" src="img/f-t-1.png" alt="">
-                <p class="featured-desc">A Sample movie project. The video may or may not work</p>
+                <p class="featured-desc">With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a brutal plantation owner in Mississippi.</p>
+                <a href="https://www.netflix.com/lu-en/title/70230640">
                 <button class="featured-button">WATCH</button>
+            </a>
+
             </div>
+            <!--Anime List suru-->
             <div class="movie-list-container">
                 <h1 class="movie-list-title">Anime</h1>
                 <div class="movie-list-wrapper">
                     <div class="movie-list">
                         <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/AOTTT.jpeg" alt="AOT">
+                            <img class="movie-list-item-img" src="img/attackontitan.jpg" alt="AOT">
                             <span class="movie-list-item-title">Attack On Titan</span>
                             <p class="movie-list-item-desc">Centuries ago, mankind was slaughtered to near extinction by monstrous humanoid creatures called titans, forcing humans to hide in fear...</p>
-                            <a href="https://hianime.to/watch/attack-on-titan-112?ep=3303">
+                            <a href="#" target="_blank">
                             <button class="movie-list-item-button">Watch</button>
                             </a>
                         </div>
                         <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/download.jpeg" alt="">
+                            <img class="movie-list-item-img" src="img/onepiece.jpg" alt="">
                             <span class="movie-list-item-title">One Piece</span>
                             <p class="movie-list-item-desc">Gold Roger was known as the "Pirate King," the strongest and most infamous being to have sailed the Grand Line. The capture and execution of Roger by the World Government br...</p>
-                            <a href="https://hianime.to/watch/one-piece-100?ep=2142">
+                            <a href="#" target="_blank">
                             <button class="movie-list-item-button">Watch</button>
                             </a>
                         </div>
                         <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/DS.jpeg" alt="">
+                            <img class="movie-list-item-img" src="img/DemonSlayer.jpg" alt="">
                             <span class="movie-list-item-title">Demon Slayer</span>
                             <p class="movie-list-item-desc">Ever since the death of his father, the burden of supporting the family has fallen upon Tanjirou Kamado's shoulders. </p>
-                            <a href="https://hianime.to/watch/demon-slayer-kimetsu-no-yaiba-47?ep=1279">
+                            <a href="#" target="_blank">
                             <button class="movie-list-item-button">Watch</button>
                             </a>
    
@@ -122,7 +133,7 @@
                             <img class="movie-list-item-img" src="img/jjk.jpeg" alt="">
                             <span class="movie-list-item-title">JJK</span>
                             <p class="movie-list-item-desc">Curses, fights and GOJO</p>
-                            <a href="https://hianime.to/watch/jujutsu-kaisen-2nd-season-18413?ep=102662">
+                            <a href="#" target="_blank">
                             <button class="movie-list-item-button">Watch</button>
                             </a>
                         </div>
@@ -130,15 +141,15 @@
                             <img class="movie-list-item-img" src="img/kN8.jpeg" alt="">
                             <span class="movie-list-item-title">Kaiju no. 8</span>
                             <p class="movie-list-item-desc">More monstesss with more fun</p>
-                            <a href="https://hianime.to/watch/kaiju-no-8-19145?ep=123344">
+                            <a href="#" target="_blank">
                             <button class="movie-list-item-button">Watch</button>
                             </a>
                         </div>
                         <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/BLACK.jpeg" alt="">
+                            <img class="movie-list-item-img" src="img/blackclover.jpg" alt="">
                             <span class="movie-list-item-title">Black Clover</span>
                             <p class="movie-list-item-desc">Asta and Yuno</p>
-                            <a href="https://hianime.to/watch/black-clover-2404?ep=27377">
+                            <a href="#" target="_blank">
                             <button class="movie-list-item-button">Watch</button>
                             </a>
                         </div>
@@ -146,7 +157,7 @@
                             <img class="movie-list-item-img" src="img/n.jpeg" alt="">
                             <span class="movie-list-item-title">Naruto</span>
                             <p class="movie-list-item-desc">yk who is naruto</p>
-                            <a href="https://hianime.to/watch/naruto-677?ep=12352">
+                            <a href="#" target="_blank">
                             <button class="movie-list-item-button">Watch</button>
                             </a>
 
@@ -155,162 +166,383 @@
                     <i class="fas fa-chevron-right arrow"></i>
                 </div>
             </div>
+            <!--IMDB Top movie list suru-->
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">IMDB: TOP</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/THEE.jpg" alt="">
+                            <span class="movie-list-item-title">The Shawshank Redemption</span>
+                            <p class="movie-list-item-desc">Over the courses of several years, two convicts from a friendship,seeking consolation
+                                and, eventually, Redemption through basic compassion.
+                            </p>
+                            <a href="https://unilinks.lol/thcmvj0003944/?token=MjRqaStKZyt4L0M2dWVWSHljVEFYby9YVGl3bVNhSU1DMHVtN09NN2dSOGRuRzVIczhTY091Q3VLY3Z5M3ZqV3BhRTJnVnhJQnd5akYwamp3RGR3a3NhZG04SDM2QVZqb0xPU25nOHVOMnRsUHNIZDk2Qks3QklLVUhlUEhBcnlVVmYwSVN6U01lM21vc0ZIdXk2WTNrUGp4MjlQTTAzWG9QdVFsc3VTRFAxRXZDTEtnbGR0UWwyNGozcUx2MjQxVm5KdXpNcHdsa3JSUUtjYUVoR3BweE5ZbUlkaU1SbjR5K2o5ZG5XRENtclJkRnJHQm5NZXI4a0dHVDR4cDdpQVV6U2g3eXVZYWZWOUlQSThMZ1MrdlVTRTBkTTFxMUFlQUM4R05DU21BNnd2ZmRUUnNEVTN5RmtXaUlJQ2NRN3RzRElYN3NLZW5uSTVYbFVLMGVIRTJnPT0=" target="_blank">
+                            <button class="movie-list-item-button">Download</button>
+                            </a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/GODFA.jpg" alt="">
+                            <span class="movie-list-item-title">The Godfather</span>
+                            <p class="movie-list-item-desc">The aging patriarch of an organized crime dynasty transfers control 
+                                of his clandestine empire to his reluctant son.
+                            </p>
+                            <a href="https://unilinks.lol/thcmvj0006849/?token=MjRqaStKZyt4L0M2dWVWSHljVEFYby9YVGl3bVNhSU1DMHVtN09NN2dSOGRuRzVIczhTY091Q3VLY3Z5M3ZqV3BhRTJnVnhJQnd5akYwamp3RGR3a3NhZG04SDM2QVZqb0xPU25nOHVOMnRsUHNIZDk2Qks3QklLVUhlUEhBcnlVVmYwSVN6U01lM21vc0ZIdXk2WTNrUGp4MjlQTTAzWG9QdVFsc3VTRFAxRXZDTEtnbGR0UWwyNGozcUx2MjQxVm5KdXpNcHdsa3JSUUtjYUVoR3BweE5ZbUlkaU1SbjR5K2o5ZG5XRENtclJkRnJHQm5NZXI4a0dHVDR4cDdpQWFBTjV6LzdScEd3eDFXZUxyOFpncEhRRURhcU1YSDhEdjFSSlI1R1QrYlBNU2ZuOUFmQWlOYmVFWlE1SlhjSFNTWUlyTHZOeEpveWFjb3YzaThRM3Z3PT0=" target="_blank">
+                            <button class="movie-list-item-button">Download</button>
+                            </a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/dark knight.jpg" alt="">
+                            <span class="movie-list-item-title">The Dark Knight</span>
+                            <p class="movie-list-item-desc">When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, 
+                                Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.
+                            </p>
+                            <a href="https://unilinks.lol/thcmvj00018611/?token=MjRqaStKZyt4L0M2dWVWSHljVEFYby9YVGl3bVNhSU1DMHVtN09NN2dSOGRuRzVIczhTY091Q3VLY3Z5M3ZqV3BhRTJnVnhJQnd5akYwamp3RGR3a3NhZG04SDM2QVZqb0xPU25nOHVOMnRsUHNIZDk2Qks3QklLVUhlUEhBcnlVVmYwSVN6U01lM21vc0ZIdXk2WTNrUGp4MjlQTTAzWG9QdVFsc3VTRFAxRXZDTEtnbGR0UWwyNGozcUx2MjQxVm5KdXpNcHdsa3JSUUtjYUVoR3BweE5ZbUlkaU1SbjR5K2o5ZG5XRENtclJkRnJHQm5NZXI4a0dHVDR4cDdpQTJ0Y1lQRDNKbFdXZFJOZjFnN1FBbTJaNk9sVmNEOXRjR0x5aXhHb1hEeGdXbUd1VXNKbTRoWWpLTnBnelg0TW1NZ21DL1dVRG5uTCtvNjUrQTJ4ZkVnPT0=" target="_blank">
+                            <button class="movie-list-item-button">Download</button>
+                            </a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/god father II.jpg" alt="">
+                            <span class="movie-list-item-title">The Godfather Part II</span>
+                            <p class="movie-list-item-desc">The early life and career of Vito Corleone in 1920s New York City is portrayed, 
+                                while his son, Michael, expands and tightens his grip on the family crime syndicate.
+                            </p>
+                            <a href="https://unilinks.lol/thcmvj0006856/?token=MjRqaStKZyt4L0M2dWVWSHljVEFYaFFIR0VGbFlPd3NqRHBqdmVQT2V6SXRkTEZJV01hd0dSd1ZiVGJ5Vm5PYjZ6RGJJd3ozUDZBeG9hNG0vR0FPQUlHeVYwVzJaQk1ON2RtdW9jQTNhTDhFZ2x3N1Y5bGpJZTkrWVNRenVGQUpGRDJuTmVQU0dKTWNSL081R1FOQWkwNlRPdTRJQ3BmRFBkbFBSbUV6d1M5UitPZmY3Y0NkMUVNd0FWdC8zaEZoVWpjUzhtRHAxSzdNcExwTDBZYmtydUZMbnRUcnRCZ2h4b0MyR3dUNnJVZFhPOGtHZVBOUTdOS1QyN3BLbTVRekg0T1ZvTGNzOTJIWjlWYm5KVGVFYTZlbVFWeUdZaXk1M25kN0Z0ZGhuR0N4Nk5zeHB3U3Rid0NxeTNZcG5BUjVldVVWaTgyVTlrQVMyZTF3ay81OVlBPT0=" target="_blank">
+                            <button class="movie-list-item-button">Download</button>
+                            </a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/12 angry man.jpg" alt="">
+                            <span class="movie-list-item-title">12 Angry Men</span>
+                            <p class="movie-list-item-desc">The jury in a New York City murder trial is frustrated by a single member whose skeptical 
+                                caution forces them to more carefully consider the evidence before jumping to a hasty verdict.
+                            </p>
+                            <a href="https://unilinks.lol/thcmvj00016637/?token=MjRqaStKZyt4L0M2dWVWSHljVEFYby9YVGl3bVNhSU1DMHVtN09NN2dSOGRuRzVIczhTY091Q3VLY3Z5M3ZqV3BhRTJnVnhJQnd5akYwamp3RGR3a3NhZG04SDM2QVZqb0xPU25nOHVOMnRsUHNIZDk2Qks3QklLVUhlUEhBcnlVVmYwSVN6U01lM21vc0ZIdXk2WTNrUGp4MjlQTTAzWG9QdVFsc3VTRFAxRXZDTEtnbGR0UWwyNGozcUx2MjQxVm5KdXpNcHdsa3JSUUtjYUVoR3BweE5ZbUlkaU1SbjR5K2o5ZG5XRENtclJkRnJHQm5NZXI4a0dHVDR4cDdpQVBIMlFvaEpMd21vTFRkcVpSbyttSTdVdm9VaUdXMkYxQWIrWWgxS1RWUzhiZTRuVzBCSDZHa0kxVDN1MklzV0dzY1h4cUhJam05cmVPNFZXUGRLWmFBPT0=" target="_blank">
+                            <button class="movie-list-item-button">Download</button>
+                            </a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/Schindlerslist__32880.jpg" alt="">
+                            <span class="movie-list-item-title">Schindler's List</span>
+                            <p class="movie-list-item-desc">In German-occupied Poland during World War II, industrialist Oskar Schindler gradually
+                                 becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.
+                            </p>
+                            <a href="https://unilinks.lol/thcmvj00084063/?token=MjRqaStKZyt4L0M2dWVWSHljVEFYaFFIR0VGbFlPd3NqRHBqdmVQT2V6SXRkTEZJV01hd0dSd1ZiVGJ5Vm5PYjZ6RGJJd3ozUDZBeG9hNG0vR0FPQUlHeVYwVzJaQk1ON2RtdW9jQTNhTDhFZ2x3N1Y5bGpJZTkrWVNRenVGQUpGRDJuTmVQU0dKTWNSL081R1FOQWkwNlRPdTRJQ3BmRFBkbFBSbUV6d1M5UitPZmY3Y0NkMUVNd0FWdC8zaEZoVWpjUzhtRHAxSzdNcExwTDBZYmtydUZMbnRUcnRCZ2h4b0MyR3dUNnJVZFhPOGtHZVBOUTdOS1QyN3BLbTVRemRzZTE1ZlBVSDBVNDFjSXZNdmYwdTBIYTlmeUwwMkFNUmJ1empaM0JEY2kzb1NtOWFKZXVKaXk2czNKTWNyMmJ1anYzdkM5R0ZHV0xBVzdGS1ozaFJ3PT0=" target="_blank">
+                            <button class="movie-list-item-button">Download</button>
+                            </a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/LordOfRings.jpg" alt="">
+                            <span class="movie-list-item-title">The Lord of the Rings</span>
+                            <p class="movie-list-item-desc">Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze 
+                                from Frodo and Sam as they approach Mount Doom with the One Ring.
+                            </p>
+                            <a href="https://unilinks.lol/thcmvj000364023/?token=MjRqaStKZyt4L0M2dWVWSHljVEFYaFFIR0VGbFlPd3NqRHBqdmVQT2V6SXRkTEZJV01hd0dSd1ZiVGJ5Vm5PYjZ6RGJJd3ozUDZBeG9hNG0vR0FPQUlHeVYwVzJaQk1ON2RtdW9jQTNhTDhFZ2x3N1Y5bGpJZTkrWVNRenVGQUpGRDJuTmVQU0dKTWNSL081R1FOQWkwNlRPdTRJQ3BmRFBkbFBSbUV6d1M5UitPZmY3Y0NkMUVNd0FWdC8zaEZoVWpjUzhtRHAxSzdNcExwTDBZYmtydUZMbnRUcnRCZ2h4b0MyR3dUNnJVZFhPOGtHZVBOUTdOS1QyN3BLbTVRekExVEFaaTVSVzF4VFd0N1NVeXB0RExZQnV3eWR6SXZ4ZnExeXIwUExwN3VmSzdKdzg1VkNMOEFWanhUSk9hazdaM2grVU5YMmV5ZlhndEZWU200V0lnPT0=" target="_blank">
+                            <button class="movie-list-item-button">Download</button>
+                            </a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/pulp.jpg" alt="">
+                            <span class="movie-list-item-title">Pulp Fiction</span>
+                            <p class="movie-list-item-desc">The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner 
+                                bandits intertwine in four tales of violence and redemption.
+                            </p>
+                            <a href="https://unilinks.lol/thcmvj000223180/?token=MjRqaStKZyt4L0M2dWVWSHljVEFYaFFIR0VGbFlPd3NqRHBqdmVQT2V6SXRkTEZJV01hd0dSd1ZiVGJ5Vm5PYjZ6RGJJd3ozUDZBeG9hNG0vR0FPQUlHeVYwVzJaQk1ON2RtdW9jQTNhTDhFZ2x3N1Y5bGpJZTkrWVNRenVGQUpGRDJuTmVQU0dKTWNSL081R1FOQWkwNlRPdTRJQ3BmRFBkbFBSbUV6d1M5UitPZmY3Y0NkMUVNd0FWdC8zaEZoVWpjUzhtRHAxSzdNcExwTDBZYmtydUZMbnRUcnRCZ2h4b0MyR3dUNnJVZFhPOGtHZVBOUTdOS1QyN3BLbTVRektNaFdBblNWYTc2S21KZUhTZGxBOUEzaDlkaDg0OXNKUmFkWW50N1BlMVF1eFFwQ3FLN252RnI2MDNHWjVYNU42citnOUtCc2NGOXRBc3NrRlBTanlBPT0=" target="_blank">
+                            <button class="movie-list-item-button">Download</button>
+                            </a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/inception.jpg" alt="">
+                            <span class="movie-list-item-title">Inception</span>
+                            <p class="movie-list-item-desc">A thief who steals corporate secrets through the use of dream-sharing technology is given 
+                                the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.
+                            </p>
+                            <a href="https://unilinks.lol/thcmvj0004144/?token=MjRqaStKZyt4L0M2dWVWSHljVEFYaFFIR0VGbFlPd3NqRHBqdmVQT2V6SXRkTEZJV01hd0dSd1ZiVGJ5Vm5PYjZ6RGJJd3ozUDZBeG9hNG0vR0FPQUlHeVYwVzJaQk1ON2RtdW9jQTNhTDhFZ2x3N1Y5bGpJZTkrWVNRenVGQUpGRDJuTmVQU0dKTWNSL081R1FOQWkwNlRPdTRJQ3BmRFBkbFBSbUV6d1M5UitPZmY3Y0NkMUVNd0FWdC8zaEZoVWpjUzhtRHAxSzdNcExwTDBZYmtydUZMbnRUcnRCZ2h4b0MyR3dUNnJVZFhPOGtHZVBOUTdOS1QyN3BLbTVRelZCTS9tcjRZU2pydmlXcHcySWF3Yk5CVzlFN01sNGpNY3dhS1cxRTRvQW96ZHdqVitMamNneW1ISlFac2ZHaDhrK1dTa0Jvank0S0dpWlp5NXMyUTJ3PT0=" target="_blank">
+                            <button class="movie-list-item-button">Download</button>
+                            </a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/THEMatrix.jpg" alt="">
+                            <span class="movie-list-item-title">The Matrix</span>
+                            <p class="movie-list-item-desc">When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers
+                                 the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.
+                            </p>
+                            <a href="https://unilinks.lol/thcmvj000161018/?token=MjRqaStKZyt4L0M2dWVWSHljVEFYaFFIR0VGbFlPd3NqRHBqdmVQT2V6SXRkTEZJV01hd0dSd1ZiVGJ5Vm5PYjZ6RGJJd3ozUDZBeG9hNG0vR0FPQUlHeVYwVzJaQk1ON2RtdW9jQTNhTDhFZ2x3N1Y5bGpJZTkrWVNRenVGQUpGRDJuTmVQU0dKTWNSL081R1FOQWkwNlRPdTRJQ3BmRFBkbFBSbUV6d1M5UitPZmY3Y0NkMUVNd0FWdC8zaEZoVWpjUzhtRHAxSzdNcExwTDBZYmtydUZMbnRUcnRCZ2h4b0MyR3dUNnJVZFhPOGtHZVBOUTdOS1QyN3BLbTVRelcrb1FPL3lhQUF2VnhWajdTTnZJdEZFVjlRNmRuVGtFZFhzY1lTa3ZFQnZxb045TklrR2loQVZPWTdEemFXT2c1MG9IVVBnK3lGRXZ5U3JmLy8zblZRPT0=" target="_blank">
+                            <button class="movie-list-item-button">Download</button>
+                            </a>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <!--K-Drama suru-->
             <div class="movie-list-container">
                 <h1 class="movie-list-title">K-DRAMAS</h1>
                 <div class="movie-list-wrapper">
                     <div class="movie-list">
                         <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/8.jpg" alt="">
+                            <img class="movie-list-item-img" src="img/A Business prop.jpg" alt="">
                             <span class="movie-list-item-title">A Business Proposal</span>
                             <p class="movie-list-item-desc">In disguise as her friend, Ha-ri shows up to a blind date to scare him away.</p>
+                            <a href="#" target="_blank">
                             <button class="movie-list-item-button">Watch</button>
+                            </a>
                         </div>
                         <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/9.jpg" alt="">
+                            <img class="movie-list-item-img" src="img/queen-of-tears.jpg" alt="">
                             <span class="movie-list-item-title">Queen Of Tears</span>
                             <p class="movie-list-item-desc">The queen of department stores and her small-town husband weather a marital crisis —until love miraculously begins to bloom again.</p>
+                            <a href="#" target="_blank">
                             <button class="movie-list-item-button">Watch</button>
+                            </a>
                         </div>
                         <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/10.jpg" alt="">
+                            <img class="movie-list-item-img" src="img/allofusaredead.jpg" alt="">
                             <span class="movie-list-item-title">All of US Are Dead</span>
                             <p class="movie-list-item-desc">whole world is dead</p>
+                            <a href="#" target="_blank">
                             <button class="movie-list-item-button">Watch</button>
+                            </a>
                         </div>
                         <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/11.jpg" alt="">
+                            <img class="movie-list-item-img" src="img/kingdom.jpg" alt="">
                             <span class="movie-list-item-title">Kingdom</span>
                             <p class="movie-list-item-desc">More zombies </p>
+                            <a href="#" target="_blank">
                             <button class="movie-list-item-button">Watch</button>
+                            </a>
                         </div>
                         <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/12.jpg" alt="">
+                            <img class="movie-list-item-img" src="img/sweet-home-review-netflix.jpg" alt="">
                             <span class="movie-list-item-title">Sweet Home</span>
                             <p class="movie-list-item-desc">Sweet Home but with monsters</p>
                             <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/kim.jpg" alt="">
+                            <span class="movie-list-item-title">What's Wrong With you Secretary Kim</span>
+                            <p class="movie-list-item-desc">A vainglorious executive who seemingly has everything faces devastating 
+                                news when his adept personal assistant announces that she’s decided to quit..</p>
+                                <a href="#" target="_blank">
+                             <button class="movie-list-item-button">Watch</button>
+                                </a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/LovelyRunner.jpeg" alt="">
+                            <span class="movie-list-item-title">Lovely Runner</span>
+                            <p class="movie-list-item-desc">In the glitzy realm of stardom, Ryu Seon Jae shines as a 
+                                top-tier celebrity, captivating the spotlight since his debut.</p>
+                            <a href="#" target="_blank">
+                             <button class="movie-list-item-button">Watch</button>
+                            </a>
                         </div>
                        
                     </div>
                     <i class="fas fa-chevron-right arrow"></i>
                 </div>
             </div>
+            <!--DARK web series suru-->
             <div class="featured-content"
                 style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/f-2.jpg');">
                 <img class="featured-title" src="img/f-t-2.png" alt="">
                 <p class="featured-desc"> A missing child sets four families on a frantic hunt for answers as they unearth a mind-bending mystery that spans three generations.</p>
-                <a href="https://www.netflix.com/np/title/80100172">
+                <a href="#" target="_blank">
                 <button class="featured-button">WATCH</button>
                 </a>
             </div>
+            <!--IMDB Top movie list suru-->
             <div class="movie-list-container">
-                <h1 class="movie-list-title">NEW RELEASES</h1>
+                <h1 class="movie-list-title">IMDB: TOP</h1>
                 <div class="movie-list-wrapper">
                     <div class="movie-list">
                         <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/1.jpeg" alt="">
-                            <span class="movie-list-item-title">Her</span>
-                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                                hic fugit similique accusantium.</p>
-                            <button class="movie-list-item-button">Watch</button>
+                            <img class="movie-list-item-img" src="img/THEE.jpg" alt="">
+                            <span class="movie-list-item-title">The Shawshank Redemption</span>
+                            <p class="movie-list-item-desc">Over the courses of several years, two convicts from a friendship,seeking consolation
+                                and, eventually, Redemption through basic compassion.
+                            </p>
+                            <a href="https://unilinks.lol/thcmvj0003944/?token=MjRqaStKZyt4L0M2dWVWSHljVEFYby9YVGl3bVNhSU1DMHVtN09NN2dSOGRuRzVIczhTY091Q3VLY3Z5M3ZqV3BhRTJnVnhJQnd5akYwamp3RGR3a3NhZG04SDM2QVZqb0xPU25nOHVOMnRsUHNIZDk2Qks3QklLVUhlUEhBcnlVVmYwSVN6U01lM21vc0ZIdXk2WTNrUGp4MjlQTTAzWG9QdVFsc3VTRFAxRXZDTEtnbGR0UWwyNGozcUx2MjQxVm5KdXpNcHdsa3JSUUtjYUVoR3BweE5ZbUlkaU1SbjR5K2o5ZG5XRENtclJkRnJHQm5NZXI4a0dHVDR4cDdpQVV6U2g3eXVZYWZWOUlQSThMZ1MrdlVTRTBkTTFxMUFlQUM4R05DU21BNnd2ZmRUUnNEVTN5RmtXaUlJQ2NRN3RzRElYN3NLZW5uSTVYbFVLMGVIRTJnPT0=" target="_blank">
+                            <button class="movie-list-item-button">Download</button>
+                            </a>
                         </div>
                         <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/2.jpeg" alt="">
-                            <span class="movie-list-item-title">Her</span>
-                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                                hic fugit similique accusantium.</p>
-                            <button class="movie-list-item-button">Watch</button>
+                            <img class="movie-list-item-img" src="img/GODFA.jpg" alt="">
+                            <span class="movie-list-item-title">The Godfather</span>
+                            <p class="movie-list-item-desc">The aging patriarch of an organized crime dynasty transfers control 
+                                of his clandestine empire to his reluctant son.
+                            </p>
+                            <a href="https://unilinks.lol/thcmvj0006849/?token=MjRqaStKZyt4L0M2dWVWSHljVEFYby9YVGl3bVNhSU1DMHVtN09NN2dSOGRuRzVIczhTY091Q3VLY3Z5M3ZqV3BhRTJnVnhJQnd5akYwamp3RGR3a3NhZG04SDM2QVZqb0xPU25nOHVOMnRsUHNIZDk2Qks3QklLVUhlUEhBcnlVVmYwSVN6U01lM21vc0ZIdXk2WTNrUGp4MjlQTTAzWG9QdVFsc3VTRFAxRXZDTEtnbGR0UWwyNGozcUx2MjQxVm5KdXpNcHdsa3JSUUtjYUVoR3BweE5ZbUlkaU1SbjR5K2o5ZG5XRENtclJkRnJHQm5NZXI4a0dHVDR4cDdpQWFBTjV6LzdScEd3eDFXZUxyOFpncEhRRURhcU1YSDhEdjFSSlI1R1QrYlBNU2ZuOUFmQWlOYmVFWlE1SlhjSFNTWUlyTHZOeEpveWFjb3YzaThRM3Z3PT0=" target="_blank">
+                            <button class="movie-list-item-button">Download</button>
+                            </a>
                         </div>
                         <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/15.jpg" alt="">
-                            <span class="movie-list-item-title">Her</span>
-                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                                hic fugit similique accusantium.</p>
-                            <button class="movie-list-item-button">Watch</button>
+                            <img class="movie-list-item-img" src="img/dark knight.jpg" alt="">
+                            <span class="movie-list-item-title">The Dark Knight</span>
+                            <p class="movie-list-item-desc">When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, 
+                                Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.
+                            </p>
+                            <a href="https://unilinks.lol/thcmvj00018611/?token=MjRqaStKZyt4L0M2dWVWSHljVEFYby9YVGl3bVNhSU1DMHVtN09NN2dSOGRuRzVIczhTY091Q3VLY3Z5M3ZqV3BhRTJnVnhJQnd5akYwamp3RGR3a3NhZG04SDM2QVZqb0xPU25nOHVOMnRsUHNIZDk2Qks3QklLVUhlUEhBcnlVVmYwSVN6U01lM21vc0ZIdXk2WTNrUGp4MjlQTTAzWG9QdVFsc3VTRFAxRXZDTEtnbGR0UWwyNGozcUx2MjQxVm5KdXpNcHdsa3JSUUtjYUVoR3BweE5ZbUlkaU1SbjR5K2o5ZG5XRENtclJkRnJHQm5NZXI4a0dHVDR4cDdpQTJ0Y1lQRDNKbFdXZFJOZjFnN1FBbTJaNk9sVmNEOXRjR0x5aXhHb1hEeGdXbUd1VXNKbTRoWWpLTnBnelg0TW1NZ21DL1dVRG5uTCtvNjUrQTJ4ZkVnPT0=" target="_blank">
+                            <button class="movie-list-item-button">Download</button>
+                            </a>
                         </div>
                         <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/3.jpg" alt="">
-                            <span class="movie-list-item-title">Her</span>
-                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                                hic fugit similique accusantium.</p>
-                            <button class="movie-list-item-button">Watch</button>
+                            <img class="movie-list-item-img" src="img/god father II.jpg" alt="">
+                            <span class="movie-list-item-title">The Godfather Part II</span>
+                            <p class="movie-list-item-desc">The early life and career of Vito Corleone in 1920s New York City is portrayed, 
+                                while his son, Michael, expands and tightens his grip on the family crime syndicate.
+                            </p>
+                            <a href="https://unilinks.lol/thcmvj0006856/?token=MjRqaStKZyt4L0M2dWVWSHljVEFYaFFIR0VGbFlPd3NqRHBqdmVQT2V6SXRkTEZJV01hd0dSd1ZiVGJ5Vm5PYjZ6RGJJd3ozUDZBeG9hNG0vR0FPQUlHeVYwVzJaQk1ON2RtdW9jQTNhTDhFZ2x3N1Y5bGpJZTkrWVNRenVGQUpGRDJuTmVQU0dKTWNSL081R1FOQWkwNlRPdTRJQ3BmRFBkbFBSbUV6d1M5UitPZmY3Y0NkMUVNd0FWdC8zaEZoVWpjUzhtRHAxSzdNcExwTDBZYmtydUZMbnRUcnRCZ2h4b0MyR3dUNnJVZFhPOGtHZVBOUTdOS1QyN3BLbTVRekg0T1ZvTGNzOTJIWjlWYm5KVGVFYTZlbVFWeUdZaXk1M25kN0Z0ZGhuR0N4Nk5zeHB3U3Rid0NxeTNZcG5BUjVldVVWaTgyVTlrQVMyZTF3ay81OVlBPT0=" target="_blank">
+                            <button class="movie-list-item-button">Download</button>
+                            </a>
                         </div>
                         <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/4.jpg" alt="">
-                            <span class="movie-list-item-title">Her</span>
-                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                                hic fugit similique accusantium.</p>
-                            <button class="movie-list-item-button">Watch</button>
+                            <img class="movie-list-item-img" src="img/12 angry man.jpg" alt="">
+                            <span class="movie-list-item-title">12 Angry Men</span>
+                            <p class="movie-list-item-desc">The jury in a New York City murder trial is frustrated by a single member whose skeptical 
+                                caution forces them to more carefully consider the evidence before jumping to a hasty verdict.
+                            </p>
+                            <a href="https://unilinks.lol/thcmvj00016637/?token=MjRqaStKZyt4L0M2dWVWSHljVEFYby9YVGl3bVNhSU1DMHVtN09NN2dSOGRuRzVIczhTY091Q3VLY3Z5M3ZqV3BhRTJnVnhJQnd5akYwamp3RGR3a3NhZG04SDM2QVZqb0xPU25nOHVOMnRsUHNIZDk2Qks3QklLVUhlUEhBcnlVVmYwSVN6U01lM21vc0ZIdXk2WTNrUGp4MjlQTTAzWG9QdVFsc3VTRFAxRXZDTEtnbGR0UWwyNGozcUx2MjQxVm5KdXpNcHdsa3JSUUtjYUVoR3BweE5ZbUlkaU1SbjR5K2o5ZG5XRENtclJkRnJHQm5NZXI4a0dHVDR4cDdpQVBIMlFvaEpMd21vTFRkcVpSbyttSTdVdm9VaUdXMkYxQWIrWWgxS1RWUzhiZTRuVzBCSDZHa0kxVDN1MklzV0dzY1h4cUhJam05cmVPNFZXUGRLWmFBPT0=" target="_blank">
+                            <button class="movie-list-item-button">Download</button>
+                            </a>
                         </div>
                         <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/5.jpg" alt="">
-                            <span class="movie-list-item-title">Her</span>
-                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                                hic fugit similique accusantium.</p>
-                            <button class="movie-list-item-button">Watch</button>
+                            <img class="movie-list-item-img" src="img/Schindlerslist__32880.jpg" alt="">
+                            <span class="movie-list-item-title">Schindler's List</span>
+                            <p class="movie-list-item-desc">In German-occupied Poland during World War II, industrialist Oskar Schindler gradually
+                                 becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.
+                            </p>
+                            <a href="https://unilinks.lol/thcmvj00084063/?token=MjRqaStKZyt4L0M2dWVWSHljVEFYaFFIR0VGbFlPd3NqRHBqdmVQT2V6SXRkTEZJV01hd0dSd1ZiVGJ5Vm5PYjZ6RGJJd3ozUDZBeG9hNG0vR0FPQUlHeVYwVzJaQk1ON2RtdW9jQTNhTDhFZ2x3N1Y5bGpJZTkrWVNRenVGQUpGRDJuTmVQU0dKTWNSL081R1FOQWkwNlRPdTRJQ3BmRFBkbFBSbUV6d1M5UitPZmY3Y0NkMUVNd0FWdC8zaEZoVWpjUzhtRHAxSzdNcExwTDBZYmtydUZMbnRUcnRCZ2h4b0MyR3dUNnJVZFhPOGtHZVBOUTdOS1QyN3BLbTVRemRzZTE1ZlBVSDBVNDFjSXZNdmYwdTBIYTlmeUwwMkFNUmJ1empaM0JEY2kzb1NtOWFKZXVKaXk2czNKTWNyMmJ1anYzdkM5R0ZHV0xBVzdGS1ozaFJ3PT0=" target="_blank">
+                            <button class="movie-list-item-button">Download</button>
+                            </a>
                         </div>
                         <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/1.jpg" alt="">
-                            <span class="movie-list-item-title">Her</span>
-                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                                hic fugit similique accusantium.</p>
-                            <button class="movie-list-item-button">Watch</button>
+                            <img class="movie-list-item-img" src="img/LordOfRings.jpg" alt="">
+                            <span class="movie-list-item-title">The Lord of the Rings</span>
+                            <p class="movie-list-item-desc">Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze 
+                                from Frodo and Sam as they approach Mount Doom with the One Ring.
+                            </p>
+                            <a href="https://unilinks.lol/thcmvj000364023/?token=MjRqaStKZyt4L0M2dWVWSHljVEFYaFFIR0VGbFlPd3NqRHBqdmVQT2V6SXRkTEZJV01hd0dSd1ZiVGJ5Vm5PYjZ6RGJJd3ozUDZBeG9hNG0vR0FPQUlHeVYwVzJaQk1ON2RtdW9jQTNhTDhFZ2x3N1Y5bGpJZTkrWVNRenVGQUpGRDJuTmVQU0dKTWNSL081R1FOQWkwNlRPdTRJQ3BmRFBkbFBSbUV6d1M5UitPZmY3Y0NkMUVNd0FWdC8zaEZoVWpjUzhtRHAxSzdNcExwTDBZYmtydUZMbnRUcnRCZ2h4b0MyR3dUNnJVZFhPOGtHZVBOUTdOS1QyN3BLbTVRekExVEFaaTVSVzF4VFd0N1NVeXB0RExZQnV3eWR6SXZ4ZnExeXIwUExwN3VmSzdKdzg1VkNMOEFWanhUSk9hazdaM2grVU5YMmV5ZlhndEZWU200V0lnPT0=" target="_blank">
+                            <button class="movie-list-item-button">Download</button>
+                            </a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/pulp.jpg" alt="">
+                            <span class="movie-list-item-title">Pulp Fiction</span>
+                            <p class="movie-list-item-desc">The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner 
+                                bandits intertwine in four tales of violence and redemption.
+                            </p>
+                            <a href="https://unilinks.lol/thcmvj000223180/?token=MjRqaStKZyt4L0M2dWVWSHljVEFYaFFIR0VGbFlPd3NqRHBqdmVQT2V6SXRkTEZJV01hd0dSd1ZiVGJ5Vm5PYjZ6RGJJd3ozUDZBeG9hNG0vR0FPQUlHeVYwVzJaQk1ON2RtdW9jQTNhTDhFZ2x3N1Y5bGpJZTkrWVNRenVGQUpGRDJuTmVQU0dKTWNSL081R1FOQWkwNlRPdTRJQ3BmRFBkbFBSbUV6d1M5UitPZmY3Y0NkMUVNd0FWdC8zaEZoVWpjUzhtRHAxSzdNcExwTDBZYmtydUZMbnRUcnRCZ2h4b0MyR3dUNnJVZFhPOGtHZVBOUTdOS1QyN3BLbTVRektNaFdBblNWYTc2S21KZUhTZGxBOUEzaDlkaDg0OXNKUmFkWW50N1BlMVF1eFFwQ3FLN252RnI2MDNHWjVYNU42citnOUtCc2NGOXRBc3NrRlBTanlBPT0=" target="_blank">
+                            <button class="movie-list-item-button">Download</button>
+                            </a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/inception.jpg" alt="">
+                            <span class="movie-list-item-title">Inception</span>
+                            <p class="movie-list-item-desc">A thief who steals corporate secrets through the use of dream-sharing technology is given 
+                                the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.
+                            </p>
+                            <a href="https://unilinks.lol/thcmvj0004144/?token=MjRqaStKZyt4L0M2dWVWSHljVEFYaFFIR0VGbFlPd3NqRHBqdmVQT2V6SXRkTEZJV01hd0dSd1ZiVGJ5Vm5PYjZ6RGJJd3ozUDZBeG9hNG0vR0FPQUlHeVYwVzJaQk1ON2RtdW9jQTNhTDhFZ2x3N1Y5bGpJZTkrWVNRenVGQUpGRDJuTmVQU0dKTWNSL081R1FOQWkwNlRPdTRJQ3BmRFBkbFBSbUV6d1M5UitPZmY3Y0NkMUVNd0FWdC8zaEZoVWpjUzhtRHAxSzdNcExwTDBZYmtydUZMbnRUcnRCZ2h4b0MyR3dUNnJVZFhPOGtHZVBOUTdOS1QyN3BLbTVRelZCTS9tcjRZU2pydmlXcHcySWF3Yk5CVzlFN01sNGpNY3dhS1cxRTRvQW96ZHdqVitMamNneW1ISlFac2ZHaDhrK1dTa0Jvank0S0dpWlp5NXMyUTJ3PT0=" target="_blank">
+                            <button class="movie-list-item-button">Download</button>
+                            </a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/THEMatrix.jpg" alt="">
+                            <span class="movie-list-item-title">The Matrix</span>
+                            <p class="movie-list-item-desc">When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers
+                                 the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.
+                            </p>
+                            <a href="https://unilinks.lol/thcmvj000161018/?token=MjRqaStKZyt4L0M2dWVWSHljVEFYaFFIR0VGbFlPd3NqRHBqdmVQT2V6SXRkTEZJV01hd0dSd1ZiVGJ5Vm5PYjZ6RGJJd3ozUDZBeG9hNG0vR0FPQUlHeVYwVzJaQk1ON2RtdW9jQTNhTDhFZ2x3N1Y5bGpJZTkrWVNRenVGQUpGRDJuTmVQU0dKTWNSL081R1FOQWkwNlRPdTRJQ3BmRFBkbFBSbUV6d1M5UitPZmY3Y0NkMUVNd0FWdC8zaEZoVWpjUzhtRHAxSzdNcExwTDBZYmtydUZMbnRUcnRCZ2h4b0MyR3dUNnJVZFhPOGtHZVBOUTdOS1QyN3BLbTVRelcrb1FPL3lhQUF2VnhWajdTTnZJdEZFVjlRNmRuVGtFZFhzY1lTa3ZFQnZxb045TklrR2loQVZPWTdEemFXT2c1MG9IVVBnK3lGRXZ5U3JmLy8zblZRPT0=" target="_blank">
+                            <button class="movie-list-item-button">Download</button>
+                            </a>
                         </div>
                     </div>
                     <i class="fas fa-chevron-right arrow"></i>
                 </div>
             </div>
+            <!--Academy Award-winning Films suru-->
             <div class="movie-list-container">
-                <h1 class="movie-list-title">NEW RELEASES</h1>
+                <h1 class="movie-list-title">Academy Award-winning Films</h1>
                 <div class="movie-list-wrapper">
                     <div class="movie-list">
                         <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/17.jpg" alt="">
-                            <span class="movie-list-item-title">Her</span>
-                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                                hic fugit similique accusantium.</p>
-                            <button class="movie-list-item-button">Watch</button>
+                            <img class="movie-list-item-img" src="img/oppenheimer.jpeg" alt="">
+                            <span class="movie-list-item-title">Oppenheimer-2023</span>
+                            <p class="movie-list-item-desc">The story of American scientist J. Robert Oppenheimer
+                                 and his role in the development of the atomic bomb.
+                            </p>
+                            <a href="https://unilinks.lol/thcmvj000337112/?token=MjRqaStKZyt4L0M2dWVWSHljVEFYby9YVGl3bVNhSU1DMHVtN09NN2dSOGRuRzVIczhTY091Q3VLY3Z5M3ZqV3BhRTJnVnhJQnd5akYwamp3RGR3a3NhZG04SDM2QVZqb0xPU25nOHVOMnRsUHNIZDk2Qks3QklLVUhlUEhBcnlVVmYwSVN6U01lM21vc0ZIdXk2WTNrUGp4MjlQTTAzWG9QdVFsc3VTRFAxRXZDTEtnbGR0UWwyNGozcUx2MjQxVm5KdXpNcHdsa3JSUUtjYUVoR3BweE5ZbUlkaU1SbjR5K2o5ZG5XRENtclJkRnJHQm5NZXI4a0dHVDR4cDdpQWxqTys2YVVkekM4SkVZZW9nbDk2N3hGYzEwMFBubjU2NmErdlRjZXN3N1hGelZNSlRKZXNMc1h6L2xaL2lZVE40dmY0RStrMzJjL2MvTDBJR0hhVDdBPT0=" target="_blank">
+                            <button class="movie-list-item-button">Download</button>
+                            </a>
                         </div>
                         <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/18.jpg" alt="">
-                            <span class="movie-list-item-title">Her</span>
-                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                                hic fugit similique accusantium.</p>
-                            <button class="movie-list-item-button">Watch</button>
+                            <img class="movie-list-item-img" src="img/EverythingEverywhereAllAtOnce-4KOcrd-3D.webp" alt="">
+                            <span class="movie-list-item-title">Everything Everywhere All at Once-2022</span>
+                            <p class="movie-list-item-desc">A middle-aged Chinese immigrant is swept up into an insane adventure in which she alone
+                                can save existence by exploring other universes and connecting with the lives she could have led.
+                            </p>
+                            <a href="https://unilinks.lol/thcmvj000263251/?token=MjRqaStKZyt4L0M2dWVWSHljVEFYby9YVGl3bVNhSU1DMHVtN09NN2dSOGRuRzVIczhTY091Q3VLY3Z5M3ZqV3BhRTJnVnhJQnd5akYwamp3RGR3a3NhZG04SDM2QVZqb0xPU25nOHVOMnRsUHNIZDk2Qks3QklLVUhlUEhBcnlVVmYwSVN6U01lM21vc0ZIdXk2WTNrUGp4MjlQTTAzWG9QdVFsc3VTRFAxRXZDTEtnbGR0UWwyNGozcUx2MjQxVm5KdXpNcHdsa3JSUUtjYUVoR3BweE5ZbUlkaU1SbjR5K2o5ZG5XRENtclJkRnJHQm5NZXI4a0dHVDR4cDdpQVZZMHZUQkdzVnU3S29YMW1wZlhLZWtQVmEzQkxsY1kzLzZ3a1F1a2RDbkRyRmhwMDlvRFliaTIzZ09ENEtNZjQ1SW9nbUxjV0hjZlIxVlVNRmpYNDV3PT0=" target="_blank">
+                            <button class="movie-list-item-button">Download</button>
+                            </a>
                         </div>
                         <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/19.jpg" alt="">
-                            <span class="movie-list-item-title">Her</span>
-                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                                hic fugit similique accusantium.</p>
-                            <button class="movie-list-item-button">Watch</button>
+                            <img class="movie-list-item-img" src="img/CODA.jpg" alt="">
+                            <span class="movie-list-item-title">CODA-2021</span>
+                            <p class="movie-list-item-desc">Ruby is the only hearing person in her deaf family. When the family's fishing business is threatened, Ruby finds herself torn between 
+                                pursuing her passion at Berklee College of Music and her fear of abandoning her parents.
+                            </p>
+                            <a href="https://unilinks.lol/thcmvj000187865/?token=MjRqaStKZyt4L0M2dWVWSHljVEFYby9YVGl3bVNhSU1DMHVtN09NN2dSOGRuRzVIczhTY091Q3VLY3Z5M3ZqV3BhRTJnVnhJQnd5akYwamp3RGR3a3NhZG04SDM2QVZqb0xPU25nOHVOMnRsUHNIZDk2Qks3QklLVUhlUEhBcnlVVmYwSVN6U01lM21vc0ZIdXk2WTNrUGp4MjlQTTAzWG9QdVFsc3VTRFAxRXZDTEtnbGR0UWwyNGozcUx2MjQxVm5KdXpNcHdsa3JSUUtjYUVoR3BweE5ZbUlkaU1SbjR5K2o5ZG5XRENtclJkRnJHQm5NZXI4a0dHVDR4cDdpQTI5SGhCOGpLSDN3OS9zRVJmMy9lWFdDU3ZCRkpxeDhmZmxJMXVaZDJvN0RHRzVQbWxtRE80RzVVY1R4SG5FNDloNzh1dXJvcGlZZUwzUGlMSEtONmFRPT0=" target="_blank">
+                            <button class="movie-list-item-button">Download</button>
+                            </a>
                         </div>
                         <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/7.jpg" alt="">
-                            <span class="movie-list-item-title">Her</span>
-                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                                hic fugit similique accusantium.</p>
-                            <button class="movie-list-item-button">Watch</button>
+                            <img class="movie-list-item-img" src="img/Noma.jpg" alt="">
+                            <span class="movie-list-item-title">Nomadland-2020</span>
+                            <p class="movie-list-item-desc">A woman in her sixties, after losing everything in the Great Recession, embarks on a 
+                                journey through the American West, living as a van-dwelling modern-day nomad.
+                            </p>
+                            <a href="https://unilinks.lol/thcmvj00084051/?token=MjRqaStKZyt4L0M2dWVWSHljVEFYby9YVGl3bVNhSU1DMHVtN09NN2dSOGRuRzVIczhTY091Q3VLY3Z5M3ZqV3BhRTJnVnhJQnd5akYwamp3RGR3a3NhZG04SDM2QVZqb0xPU25nOHVOMnRsUHNIZDk2Qks3QklLVUhlUEhBcnlVVmYwSVN6U01lM21vc0ZIdXk2WTNrUGp4MjlQTTAzWG9QdVFsc3VTRFAxRXZDTEtnbGR0UWwyNGozcUx2MjQxVm5KdXpNcHdsa3JSUUtjYUVoR3BweE5ZbUlkaU1SbjR5K2o5ZG5XRENtclJkRnJHQm5NZXI4a0dHVDR4cDdpQUZBVElCZGZlaU9iTmE5VzkzbjlKV0l3MkcxNGcwNEtITnBEOXVvanpMeUxBYzZzV3p3NkVZeHlSM1NCYk5vQng3ZFZ0TENqRHhmRkFmQjUyS3hhcFBnPT0=" target="_blank">
+                            <button class="movie-list-item-button">Download</button>
+                            </a>
                         </div>
                         <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/1.jpeg" alt="">
-                            <span class="movie-list-item-title">Her</span>
-                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                                hic fugit similique accusantium.</p>
-                            <button class="movie-list-item-button">Watch</button>
+                            <img class="movie-list-item-img" src="img/parasite.jpg" alt="">
+                            <span class="movie-list-item-title">Parasite-2019</span>
+                            <p class="movie-list-item-desc">Greed and class discrimination threaten the newly-formed symbiotic relationship between 
+                                the wealthy Park family and the destitute Kim clan.
+                            </p>
+                            <a href="https://unilinks.lol/thcmvj0004214/?token=MjRqaStKZyt4L0M2dWVWSHljVEFYby9YVGl3bVNhSU1DMHVtN09NN2dSOGRuRzVIczhTY091Q3VLY3Z5M3ZqV3BhRTJnVnhJQnd5akYwamp3RGR3a3NhZG04SDM2QVZqb0xPU25nOHVOMnRsUHNIZDk2Qks3QklLVUhlUEhBcnlVVmYwSVN6U01lM21vc0ZIdXk2WTNrUGp4MjlQTTAzWG9QdVFsc3VTRFAxRXZDTEtnbGR0UWwyNGozcUx2MjQxVm5KdXpNcHdsa3JSUUtjYUVoR3BweE5ZbUlkaU1SbjR5K2o5ZG5XRENtclJkRnJHQm5NZXI4a0dHVDR4cDdpQVdhRUpITFdQQXkwQ05WWHQzQVR6cVBVa1BmNzMzZ3VxNHZsRXNsT3k1clJjR2xVR1VyYytRQ3FncFpMU0pkMk5jZjNYTFV2eWR5dnVLSjBRMkhiMG5BPT0=" target="_blank">
+                            <button class="movie-list-item-button">Download</button>
+                            </a>
                         </div>
                         <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/2.jpeg" alt="">
-                            <span class="movie-list-item-title">Her</span>
-                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                                hic fugit similique accusantium.</p>
-                            <button class="movie-list-item-button">Watch</button>
+                            <img class="movie-list-item-img" src="img/greenbook.jpg" alt="">
+                            <span class="movie-list-item-title">Green Book-2018</span>
+                            <p class="movie-list-item-desc">A working-class Italian-American bouncer becomes the 
+                                driver for an African-American classical pianist on a tour of venues through the 1960s American South.
+                            </p>
+                            <a href="#">
+                            <button class="movie-list-item-button">Download</button>
+                            </a>
                         </div>
                         <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/3.jpg" alt="">
-                            <span class="movie-list-item-title">Her</span>
-                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                                hic fugit similique accusantium.</p>
-                            <button class="movie-list-item-button">Watch</button>
+                            <img class="movie-list-item-img" src="img/theshapeofwater.jpg" alt="">
+                            <span class="movie-list-item-title">The Shape of Water-2017</span>
+                            <p class="movie-list-item-desc">At a top secret research facility in the 1960s, a lonely janitor
+                                forms a unique relationship with an amphibious creature that is being held in captivity.
+                            </p>
+                            <a href="#">
+                            <button class="movie-list-item-button">Download</button>
+                            </a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/moonlight.jpg" alt="">
+                            <span class="movie-list-item-title">Moonlight-2016</span>
+                            <p class="movie-list-item-desc">A young African-American man grapples with his identity and sexuality while 
+                                experiencing the everyday struggles of childhood, adolescence, and burgeoning adulthood.
+                            </p>
+                            <a href="#">
+                            <button class="movie-list-item-button">Download</button>
+                            </a>
                         </div>
                     </div>
                     <i class="fas fa-chevron-right arrow"></i>
@@ -319,6 +551,26 @@
         </div>
     </div>
     <script src="app.js"></script>
+
+    <footer>
+        </div>
+        <div class="copyright">
+          <p>All Rights Reserved &copy; 2024</p>
+        </div>
+        
+        <div class="footer-content">
+          <div class="contact">
+            <h3>Contact</h3>
+            <p>rkunghang2@gmail.com</p>
+          </div>
+          <div class="social-icons">
+            <h3>Follow Me</h3>
+            <a href="https://www.instagram.com/raikunghang/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/rkunghang"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://github.com/kyrae1"><i class="fab fa-github"></i></a>
+        </div>
+        
+    </footer>
 </body>
 
 </html>
